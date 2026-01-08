@@ -199,7 +199,7 @@ header .image img{
 
 
 .building {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: 290px;
     margin-bottom: 171px;
     position: relative;
@@ -330,15 +330,7 @@ header .image img{
 .building .house .features li:first-child {
     padding-left: 0;
 }
-.building .house .colored {
-    color: var(--color-white);
-    font-size: 28px;
-    font-weight: 600;
-    background-color: var(--bcolor-btn);
-    border-radius: 20px;
-    padding: 26px 120px;
-}
-.building .house .not_colored {
+.building .house .see_details {
     border: 1px solid var(--bcolor-btn);
     color: var(--bcolor-btn);
     font-size: 28px;
@@ -347,3 +339,166 @@ header .image img{
     border-radius: 20px;
     padding: 26px 120px;
 }
+.building .house .see_details:hover {
+    color: var(--color-white);
+    font-size: 28px;
+    font-weight: 600;
+    background-color: var(--bcolor-btn);
+    border-radius: 20px;
+    padding: 26px 120px;
+}
+
+
+
+.advantages {
+    border: 1px solid red;
+    position: relative;
+    margin-bottom: 142px;
+}
+.advantages .circle {
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: -8%;
+}
+.advantages .building {
+    width: 600px;
+    height: 680px;
+    border: 1px solid red;
+}
+.advantages .main {
+    border: 1px solid red;
+    display: inline-block;
+    margin-left: 130px;
+    position: absolute;
+    margin-top: 300px;
+}
+.advantages .main h3 {
+    font-size: 58px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 70px;
+}
+.advantages .main .box {
+    border: 1px solid orange;
+    margin-bottom: 54px;
+}
+.advantages .main .box:last-child {
+    margin-bottom: 0;
+}
+.advantages .main .box .box1 {
+    background-color: #FBFCED;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+.advantages .main .box img {
+    width: 60px;
+    height: 64px;
+    position: absolute;
+    top: 15%;
+    left: 17%;
+}
+.advantages .main .box .text {
+    border: 1px solid orange;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 30px;
+}
+.advantages .main .box .text span {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--color-black);
+}
+.advantages .main .box .text p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #677071;
+}
+
+
+.advantages .slider {
+    border: 1px solid red;
+    width: 390px;
+    height: 190px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding-top: 34px;
+    padding-left: 39px;
+    position: absolute;
+    bottom: 220px;
+    left: 100px;
+    overflow: hidden;
+}
+.advantages .slider h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color-black);
+    margin-bottom: 4px;
+}
+.advantages .slider span {
+    font-size: 14px;
+    font-weight: 600;
+    color: #CCCFD0;
+}
+.advantages .slider .slides {
+    border: 1px solid blue;
+    margin-top: 18px;
+}
+.advantages .slider .slides img {
+    border: 1px solid red;
+    width: 58px;
+    height: 54px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+.advantages .slider .slides .slide {
+    display: inline-block;
+}
+
+
+.advantages .slider .arrow {
+    display: inline-block;
+    position: absolute;
+    top: 108px;
+    right: 60px;
+}
+.advantages .slider .arrow-right {
+    border: 1px solid red;
+    background-color: #F93633;
+    display: inline-block;
+    width: 58px;
+    height: 54px;
+    border-radius: 5px;
+    padding: 17px 23px;
+    cursor: pointer;
+    
+}
+.advantages .slider .arrow-right img {
+    width: 10px;
+    height: 19px;
+}
+
+
+/* .controls:has(#control1:checked) + .slides{
+    transform: translateX(0px);
+}
+
+.controls:has(#control2:checked) + .slides{
+    transform: translateX(-980px);
+}
+
+.controls:has(#control3:checked) + .slides{
+    transform: translateX(-1960px);
+}
+
+
+.controls:has(#control1:checked) ~ .arrow .arrows-slide1,
+.controls:has(#control2:checked) ~ .arrow .arrows-slide2,
+.controls:has(#control3:checked) ~ .arrow .arrows-slide3 {
+  display: block;
+} */
