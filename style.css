@@ -502,3 +502,54 @@ header .image img{
 .controls:has(#control3:checked) ~ .arrow .arrows-slide3 {
   display: block;
 } */
+
+
+.information {
+    margin-bottom: 115px;
+}
+.information .text {
+    border: 1px solid red;
+    display: inline-block;
+}
+.information .text h3 {
+    border: 1px solid red;
+    font-size: 58px;
+    font-weight: 700;
+    color: var(--color-black);
+    margin-bottom: 41px;
+}
+.information .text p {
+    border: 1px solid red;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 46px;
+}
+.information .text ul {
+    border: 1px solid red;
+    list-style: none;
+}
+.information .text li {
+    border-right: 1px solid #E0E2E3;
+    display: inline-block;
+    padding-right: 45px;
+    padding-left: 45px;
+}
+.information .text li:first-child {
+    padding-left: 0;
+}
+.information .text li:last-child {
+    border-right: 0;
+    padding-right: 0;
+}
+.information .text ul .value {
+    font-size: 42px;
+    font-weight: 700;
+    color: var(--color-black);
+}
+.information .text ul .name {
+    font-size: 18px;
+    font-weight: 400;
+    color: #677071;
+    display: block;
+}
